@@ -28,7 +28,7 @@ pipeline{
         }
            stage('cpu details'){
             steps{
-                sh 'ls cpu'
+                sh 'ls cpu '
             }
         }
     }
