@@ -26,9 +26,9 @@ pipeline{
                 sh 'free -h'
             }
         }
-           stage('cpu details'){
+           stage('memory'){
             steps{
-                sh 'ls cpu'
+                sh 'free -h'
             }
         }
     }
